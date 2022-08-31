@@ -89,11 +89,9 @@ const closeIcon = document.getElementById("icon-close");
 
 openIcon.onclick = () => {
   menu.classList.add("open");
-  openIcon.style.display = "none";
 }
 closeIcon.onclick = () => {
   menu.classList.remove("open");
-  openIcon.style.display = "block"
 }
 
 const navList = document.getElementsByClassName('navlist');
