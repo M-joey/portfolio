@@ -89,20 +89,12 @@ const closeIcon = document.getElementById("icon-close");
 
 openIcon.onclick = () => {
   menu.classList.add("open");
+  openIcon.style.display = "none";
 }
 closeIcon.onclick = () => {
   menu.classList.remove("open");
+  openIcon.style.display = "block"
 }
-
-// const navList = document.getElementsByClassName('navlist');
-// index = 0;
-// while (index < navList.length){
-//   navList[index].addEventListener('click', () => {
-//     menu.style.display = "none";
-//   })
-//   index++;
-// }
-
 
 const navList = document.getElementsByClassName('navlist');
 index = 0;
