@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>M's Work - Portfolio</title>
+    <meta name="description" content="プログラミングを独学で習得しウェブサイト制作に携わる。スクールに通わず、有料オンライン講座に頼らず、全て無料サイト動画を活用し、半年でHTML CSS Javascriptでウェブサイト作るに至る。学習意欲が旺盛な40代女性のポートフォリオ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+
+  <body>
+    <div class="fixed">
+      <header id="header">
+        <h1 class="site-title"><a href="index.html">M's Work</a></h1>
+        <nav>
+          <ul id="js-btn">
+            <li class="navlist"><a href="#about">About</a></li>
+            <li class="navlist"><a href="#works">Works</a></li>
+            <li class="navlist"><a href="#history">History</a></li>
+            <li class="navlist"><a href="#experience">Experience</a></li>
+            <li class="navlist"><a href="#contact">Contact</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" id="icon-close" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </ul>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" id="icon-open" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </nav>
+      </header>
+    </div>
+
+    <main>
+      <div id="mainvisual">
+      <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./img/mainvisual-1.jpg" alt="1"></div>
+            <div class="swiper-slide"><img src="./img/mainvisual-2.jpg" alt="2"></div>
+            <div class="swiper-slide"><img src="./img/mainvisual-3.jpg" alt="3"></div>
+            <div class="swiper-slide"><img src="./img/mainvisual-4.jpg" alt="4"></div>
+            <div class="small-img"><img src="./img/mainvisual-small4.jpg" alt="mobile"></div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <div class="about-content">
+          <img src="./img/about.jpg" alt="">
+          <div class="about-details">
+            <ul>
+              <li>嶋本雅子</li>
+              <li>Masako Shimamoto</li>
+              <li>オーストラリアシドニー在住</li>
+              <li>url: www.xxxxxx.jp</li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          日本人の夫と小学生中学生2人の息子を持ち、シドニー在住。<br/><br/>
+          
+          日本語教師の傍ら、プログラミングを独学で習得しウェブサイト制作に携わる。スクールに通わず、有料オンライン講座に頼らず、全て無料サイト動画を活用し、半年でHTML CSS Javascriptでウェブサイト作るに至る。<br/><br/>
+
+          普段はいかにおいしく安くて早く作れる料理や子供の日本語と英語教育に関心を持ち、また子供の土曜校や野球のクラブチームの地域ボランティア活動などコミュニティ参加も積極的に行う。<br/><br/>
+        
+          子供が中学校2年生なのでせめて日本語で4教科(英語以外)を教えられるように教科書や動画でなど予習を欠かさない学習意欲が旺盛な40代女性で日々プログラミング学習に力を注ぐ。
+        </p>
+      
+      </section>
+
+      <!-- M's Work -->
+     <section id="works">
+      <div class="wrapper">
+        <h2 class="sec-title animation toCenter">Works</h2>
+        <div class="features">
+          <div class="feature marginBottom ipsGrid">
+            <div class="featured-image-container ipsGrid_span5 animation animation_fromLeft">
+              <div class="card">
+                <img src="./img/work.PNG" alt="">
+              </div>
+            </div>
+            <div class="ipsGrid_span7 ipsType_left">
+              <h4 class="heading_large animation">M's Work</h4>
+              <ul class="animation">ウェブサイト制作に関するポートフォリオ。トップにスライドショー、スクロールするとトップページボタン、Worksセクションにはアニメーションを付けて、全体的に動きのあるサイト。
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>bootstrap</li>
+                <li>GSAP</li>
+                <div class="web-link">
+                  <p>サイトのリンクはこちら</p>  
+                <a class="link" href="index.html" target="_blank" rel="noopener noreferrer">M's Work</a>
+                </div>
+              </ul>
+            </div>
+          </div>
+     <!-- M's recipe -->
+          <div class="feature marginBottom ipsGrid column-reverse">
+            <div class="ipsGrid_span7 ipsType_right">
+              <h4 class="heading_large animation">M's recipe</h4>
+              <ul class="animation">普段よく使うレシピをまとめたサイト。レスポンシブ対応で、画面幅が小さくなるとメニュー画面が表示され、カテゴリーごとにナビゲーションが現れる設定。独学で勉強して一番最初に制作したサイトで、数ページある大きな作品。
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <div class="web-link">
+                  <p>サイトのリンクはこちら</p>  
+                  <a class="link" href="index.html" target="_blank" rel="noopener noreferrer">M's recipe</a>
+                  </div>
+              </ul>
+            </div>
+            <div class="featured-image-container ipsGrid_span5 animation animation_fromRight">
+              <div class="card">
+                <img src="./img/recipe.png" alt="">
+              </div>
+            </div>
+          </div>
+     <!-- M's Kids Library --> 
+          <div class="feature marginBottom ipsGrid">
+            <div class="featured-image-container ipsGrid_span5 animation animation_fromLeft">
+              <div class="card">
+                <img src="./img/ehon.png" alt="">
+              </div>
+            </div>
+            <div class="ipsGrid_span7 ipsType_left">
+              <h4 class="heading_large animation">小学生が喜ぶ英語の絵本</h4>
+              <ul class="animation">英語の本に興味がなかった息子が唯一好きな本を厳選して紹介したサイト。レスポンシブ対応でメニュー画面が出るほかに、学年別にタブ設定を設けるなど工夫した作品。検索エンジンに引っかかるように、google search consoleを設定済み。
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <div class="web-link">
+                  <p>サイトのリンクはこちら</p>  
+                  <a class="link" href="index.html" target="_blank" rel="noopener noreferrer">英語の絵本</a>
+                  </div>
+              </ul>
+            </div>
+          </div>
+      <!-- M's BLOG PAGE -->
+          <div class="feature marginBottom ipsGrid column-reverse">
+            <div class="ipsGrid_span7 ipsType_right">
+              <h4 class="heading_large animation">M's BLOG PAGE</h4>
+              <ul class="animation">子育て料理など日本の生活と少し違うオーストラリアならではの何気ない日常を紹介しているサイト。Wordpressに興味を持ったので、無料版で制作。
+                <li>Wordpress</li>
+                <div class="web-link">
+                  <p>サイトのリンクはこちら</p>  
+                  <a class="link" href="index.html" target="_blank" rel="noopener noreferrer">M's BLOG</a>
+                  </div>
+            </div>
+      
+            <div class="featured-image-container ipsGrid_span5 animation animation_fromRight">
+              <div class="card">
+                <img src="./img/blog.png" alt="">
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+      </div>
+     </section>
+      
+      <section id="history" class="wrapper">
+        <h2 class="sec-title">History</h2>
+        <dl>
+          <dt>2022.07</dt>
+          <dd>デザインを含め一からウェブサイトM's recipeを制作する。</dd>
+          <dt>2022.01</dt>
+          <dd>学習サイトやYouTubeでJavascriptを学び始める</dd>
+          <dt>2021.10</dt>
+          <dd>Progate ドットインストールの学習サイトからHTML CSSを学び始める</dd>
+        </dl>
+      </section>
+
+      <section id="experience" class="wrapper">
+        <h2 class="sec-title">Experience</h2>
+        <dl>
+          <dt>日本語教師</dt>
+          <dd>日本語教育能力検定試験に合格し、日本語教師勤務</dd>
+          <dt>テーマパーク会社</dt>
+          <dd>マーケティング、営業事務</dd>
+          <dt>日系大手メーカー</dt>
+          <dd>貿易、営業事務</dd>
+        </dl>
+      </section>
+
+      <section id="contact">
+        <div class="wrapper">
+
+          <h2 class="sec-title">Contact</h2>
+          <form action="#" method="post">
+            <dl>
+              <dt><label for="name">NAME</label></dt>
+              <dd><input type="text" id="name" name="your-name"></dd>
+              <dt><label for="email">E-mail</label></dt>
+              <dd><input type="email" id="email" name="your-email"></dd>
+              <dt><label for="message">MESSAGE</label></dt>
+              <dd><textarea id="message" name="your-message"></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="送信"></div>
+          </form>
+        </div>
+      </section>
+    
+      <div class="to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2022 M's Work</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
