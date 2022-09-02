@@ -25,13 +25,11 @@ li {
   padding: 60px 4%;
 }
 .site-title {
-  line-height: 1px;
+  margin-top: 15px;
 }
-.site-title a {
-  font-size: 26px;
-  color: #333;
-  display: block;
-}
+/* .site-title a img{
+  height: 60px;
+} */
 .site-title a:hover {
   color: #E44239;
   transition: 0.3s;
@@ -165,6 +163,9 @@ header
   nav ul.open {
     right: 0px;
   }
+ /* .bi-list:hover.open{
+    display: none;
+  } */
   nav ul li a {
     font-size: 18px;
     display: block;
@@ -574,3 +575,4 @@ to-top
   pointer-events: auto;
   opacity:1;
 }
+
