@@ -500,6 +500,7 @@ contact
     font-size: 14px;
     font-weight: 600;
   }
+
 @media screen and (max-width: 600px) {
   #contact dl {
     display: block;
