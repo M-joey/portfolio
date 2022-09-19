@@ -106,14 +106,20 @@ while (index < navList.length){
   })
   index++;
 }
-
-//contact form
+// contact form
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzq2v_vudlTKdE46S3EZjgUDzs-9ifPxw0SbZ5cEH985dFf3ZiyXbaY7NhxEi72tH3q/exec'
-  const form = document.forms['submit-to-google-sheet']
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg");
 
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      msg.innerHTML = "メッセージは送信されました"
+      setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
