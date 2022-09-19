@@ -121,5 +121,12 @@ form.addEventListener('submit', e => {
       },5000)
       form.reset()
     })
-    .catch(error => console.error('Error!', error.message))
+    .catch( error => {
+    msg.innerHTML = "メッセージ送信に失敗しました"
+    setTimeout(function(){
+      msg.innerHTML = ""
+    },5000)
+    form.reset()
+  })
+  // .catch(error => console.error('Error!', error.message))
 })
