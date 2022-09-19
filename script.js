@@ -108,7 +108,7 @@ while (index < navList.length){
 }
 
 //contact form
-const scriptURL = '<SCRIPT URL>'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxhCILGRJ_FNEIhZVAF-dk8m6U-Y0c0yBbdxK5SdMG9nZMlN-aARY9BRUrIHAg-Ig4/exec'
   const form = document.forms['submit-to-google-sheet']
 
   form.addEventListener('submit', e => {
