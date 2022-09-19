@@ -489,7 +489,46 @@ history and experience
 /* 
 contact
  */
-#contact {
+
+  #contact {
+    background-color: #f6eeee;
+   }
+   #contact .wrapper {
+    margin-bottom: 0;
+     }
+  #contact form input, textarea {
+    border: 1px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  #contact form ::placeholder {
+    padding-left: 10px;
+  }
+  #contact form textarea::placeholder {
+    padding-top: 10px;
+  }
+  #contact form input {
+    height: 50px;
+  }
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .button {
+    text-align: center;
+  }
+  #contact .button input {
+    width: 200px;
+    background-color: #E44239;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #E44239;
+  }
+  #contact .button input:hover {
+    background: #fff;
+    color: #E44239;
+  }
+/* #contact {
 background-color: #f6eeee;
  }
  #contact .wrapper {
@@ -530,7 +569,7 @@ background-color: #f6eeee;
 #contact .button input:hover {
   background: #fff;
   color: #E44239;
-}
+} */
 
 @media screen and (max-width: 600px) {
   #contact dl {
