@@ -493,7 +493,13 @@ contact
     background: #fff;
     color: #E44239;
   }
-
+  #msg {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
 @media screen and (max-width: 600px) {
   #contact dl {
     display: block;
