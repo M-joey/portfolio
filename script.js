@@ -107,7 +107,7 @@ while (index < navList.length){
   index++;
 }
 // contact form
-const scriptURL = 'https://script.google.com/macros/library/d/1fp_LCWvKGPfLRM7i6OIbIuTu5vLbvmDWzwEaSYW-NlcnzY3P7sLNFVeq/1'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzq2v_vudlTKdE46S3EZjgUDzs-9ifPxw0SbZ5cEH985dFf3ZiyXbaY7NhxEi72tH3q/exec'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg");
 
