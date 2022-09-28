@@ -27,9 +27,6 @@ li {
 .site-title {
   margin-top: 15px;
 }
-/* .site-title a img{
-  height: 60px;
-} */
 .site-title a:hover {
   color: #E44239;
   transition: 0.3s;
@@ -72,7 +69,6 @@ header
   font-size: 0.9rem;
   font-weight: 600;
   margin-left: 30px;
-  
 }
 #header li a {
   color: #24292e;
@@ -88,15 +84,10 @@ header
   height: 3px;
   background-color: #E44239;
 }
-.bi.bi-list,
-.bi.bi-x-lg {
+.bi-list,
+.bi-x-lg {
   display: none;
-}
-#open-icon path {
-  display: none;
-}
-.bi.bi-list svg path {
-  display: none;
+  opacity: 0;
 }
 @media screen and (max-width: 800px) {
   #header li {
@@ -114,15 +105,16 @@ header
   /* 
   ハンバーガーメニュー
   */
-  .bi.bi-list {
+ .bi-list {
     display: block;
+    opacity: 1;
     color: #E44239;
     transform: scale(2.5);
     position: absolute;
     top: 25px;
     right: 25px;
   }
-  .bi.bi-list:hover {
+ .bi-list:hover {
     background-color: #E44239;
     color: #fff;
   }
@@ -137,8 +129,9 @@ header
     height: 100vh;
     transition: right .5s;
   }
-  .bi.bi-x-lg {
+ .bi-x-lg {
     display: block;
+    opacity: 1;
     color: #fff;
     transform: scale(1.5);
     position: absolute;
@@ -169,9 +162,6 @@ header
   nav ul.open {
     right: 0px;
   }
- /* .bi-list:hover.open{
-    display: none;
-  } */
   nav ul li a {
     font-size: 18px;
     display: block;
