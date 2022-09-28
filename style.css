@@ -95,7 +95,7 @@ header
 #open-icon path {
   display: none;
 }
-svg path {
+.bi.bi-list svg path {
   display: none;
 }
 @media screen and (max-width: 800px) {
