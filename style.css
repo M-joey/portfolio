@@ -95,6 +95,9 @@ header
 #open-icon path {
   display: none;
 }
+svg path {
+  display: none;
+}
 @media screen and (max-width: 800px) {
   #header li {
     margin: 0;
